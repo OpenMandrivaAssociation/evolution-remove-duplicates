@@ -1,7 +1,7 @@
 %define name evolution-remove-duplicates
 %define version 0.0.4
 %define oname remove-duplicates-plugin
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary: Plugin for Evolution that removed duplicated emails
 Name: %{name}
@@ -23,13 +23,12 @@ big headaches.
 %setup -q -n %oname-%version
 
 %build
-%configure2_5x
+%configure2_5x --disable-static
 %make
 
 %install
 rm -rf %{buildroot}
 %makeinstall_std
-rm -f %buildroot%_libdir/evolution/*/plugins/*.a
 
 %clean
 rm -rf %{buildroot}
