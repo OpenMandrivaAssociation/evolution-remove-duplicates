@@ -1,7 +1,7 @@
 %define name evolution-remove-duplicates
 %define version 0.0.4
 %define oname remove-duplicates-plugin
-%define release %mkrel 3
+%define release %mkrel 4
 
 Summary: Plugin for Evolution that removed duplicated emails
 Name: %{name}
