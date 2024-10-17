@@ -10,7 +10,7 @@ Release: %{release}
 Source0: %{oname}-%{version}.tar.gz
 License: GPLv2
 Group: Networking/Mail
-Url: http://www.gnome.org/~carlosg/stuff/evolution/
+Url: https://www.gnome.org/~carlosg/stuff/evolution/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: evolution-devel
 Requires: evolution
