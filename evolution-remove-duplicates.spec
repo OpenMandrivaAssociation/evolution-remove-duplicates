@@ -12,6 +12,11 @@ License: GPLv2
 Group: Networking/Mail
 Url: https://www.gnome.org/~carlosg/stuff/evolution/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: evolution-devel
 Requires: evolution
 
